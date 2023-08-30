@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "AtlasTokenMaster",
+    "version": "1.0",
+  
+    "description": "Adds a browser action icon to the toolbar. Click the button to put the bearerToken into the clipboard",
+    "homepage_url": "https://github.com/Tsemharb/OHDSIBrowserExtensions",
+    "icons": {
+      "48": "icons/atlas-cookie-48.png"
+    },
+  
+    "permissions": ["activeTab", "clipboardWrite"],
+  
+    "browser_action": {
+      "default_icon": "icons/atlas-cookie-32.png",
+      "default_title": "AtlasCookie",
+      "default_popup": "popup/popup.html"
+    }
+    
+  }
+  
